@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <title> H O M E</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header id="event-description">
+        <div id="disclaimer">
+            <h2>Residência de Alto Padrão</h2>
+            <p class="about-event"> Uma obra de arte!</p>
+            <p> Vista de demonstração, data:</p>
+            <p class="event-date"> Sabado, 03 de Setembro, à partir das 14h</p>
+        </div>
+        <div id="subscription-form">
+            <p> Para receber mais detalhes, preencha o formulário!</p>
+            <form action="processa.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite o seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu melhor E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="text" name="phone" placeholder="Numero de Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principal interesses</label>
+                    <select name="interest">
+                        <option value=""disabled selected> Selecione</option>
+                        <option value="Apartament">Apartamentos</option>
+                        <option value="house">Casas</option>
+                        <option value="Sobrados">Sobrados</option>
+                        <option value="Gardens">Gardens</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn" value="Quero me cadastrar!"> 
+
+            </form>
+        </div>
+    </header>
+    <section id="key-benefits">
+        <h2> Os detalhes que fazem a diferença</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p> Colocar aqui, todas os detalhes importante 
+                    do acabamento de cada foto</p>
+
+            </div>
+        
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p> Colocar aqui, todas os detalhes importante 
+                    do acabamento de cada foto</p>
+            </div>
+
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p> Colocar aqui, todas os detalhes importante 
+                    do acabamento de cada foto</p>
+            </div>
+    </div>
+    </section>
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"> </i>
+            <div id="address-details">
+                <p>Rua Ângelo Domingos Durigan, 229</p>
+                <p>Cascatinha</p>
+                <p>Curitiba/PR</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Local de Destaque</h3>
+            <p> Com uma arquitetura imponente e ambientes que exploram muita sofisticação e funcionalidade.
+                Residência com assinatura de renomado arquiteto. Com área privativa de 350 m², com circulação harmoniosa, espaços aconchegantes para receber visitas</p>
+        </div>
+    </section>
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/sala.jpg" alt="Sala de entrada com pé direito elevado">
+            <div class="detail-description">
+                <h3> Conheça todos os ambientes</h3>
+            </div>
+        </div>
+
+        <div class="detail" id="detail-2">          
+            <div class="detail-description">
+                <h3> Detalhes</h3>
+                <ul>
+                    <li>Posicionamento </li>
+                    <li>Medidas</li>
+                    <li>Decoração</li>
+                    <li> E muito mais...</li>
+                </ul>
+
+            </div>
+            <img src="img/salaJantar.jpg" alt="Sala de Jantar">
+        </div>
+
+        <div class="detail" id="detail-3">
+            <img src="img/salaTv.jpg" alt="Sala de televisão">          
+                <div class="detail-description">
+                    <h3> Decoração</h3>
+                    <ul>
+                        <li>Sanca em gesso </li>
+                        <li>Iluminação</li>
+                        <li>Papel de parede</li>
+                        <li> Piso em madeira maciça</li>
+                        <li>E muito mais...</li>
+                    </ul>
+
+                </div> 
+            
+        </div>
+    </section>
+
+    </section>
+    <section id="cta">
+        <h3>Gostou? Então se inscreva:</h3>
+        <button class="btn"> Solicitar inscrição</button>
+    </section>
+    <footer id="footer">
+        <h3> My Home</h3>
+        <p>Agende hoje mesmo uma visita com a nossa equipe</p>
+        <p><span> Entre em contato aqui:</span> (41) 99999-9999</p>
+        <p><span> Ou pelo E-mail:</span> contato@contato.com.br</p>
+
+    </footer>
+</body>
+</html
